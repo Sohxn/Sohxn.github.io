@@ -1,0 +1,463 @@
+html 
+{
+    scroll-behavior: smooth;
+    background-color: #000000;
+    /*removes the extra ugly space horizontally*/
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+#border
+{
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    height:8vh;
+    width: fill;
+}
+
+
+
+
+
+/* BORGAAR */
+.navbar
+{
+    font-family: 'Oswald' , sans-serif;
+}
+
+.navbar-custom
+{
+    background-color: transparent;
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-toggler span
+{
+    margin:0;
+    padding:0;
+}
+
+.toggler-icon
+{
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 18px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.navbar-toggler .mid-bar
+{
+    margin-top: 0px;
+}
+
+/*when hamburger is clicked*/
+.navbar-toggler .top-bar
+{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .mid-bar
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bot-bar
+{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+
+}
+
+.navbar-toggler.collapsed .top-bar
+{
+    margin-top: -5.5px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .mid-bar
+{
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.navbar-toggler.collapsed .bot-bar
+{
+    margin-top: 5px;
+    transform: rotate(0deg);
+}
+
+
+.circle
+{
+    position: relative;
+    width: 2px;
+    height: 2px;
+}
+
+#scroll
+{
+    padding-top: 15vh;
+    text-align: center;
+}
+
+#scrollbutton
+{
+   
+    border-color: #76ab68;
+    color: #76ab68;
+}
+
+#section2
+{
+    height: fit-content;
+    width: fill;
+    background-color: white;
+
+}
+
+#parallax-image-top
+{
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    height: 100vh;
+   
+}
+
+#parallax-image-middle
+{
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    font-family: 'Oswald', sans-serif;
+    height: fit-content;
+    
+}
+ 
+#parallax-image-bottom
+{
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    text-align: center;
+    height: 15vh;
+}
+
+#services-title
+{
+    padding-top: 5.5vh;
+}
+
+#services-list
+{
+    background-color: #000000;
+}
+
+#bannerlogo
+{
+    padding-top: 20vh;
+    width:100%;
+    max-width: 800px;
+    
+}
+
+#r1
+{
+background-color: #3c8e53;
+background-repeat: no-repeat;
+font-family: 'Montserrat', sans-serif;
+color: white;
+height: 20vh;
+padding-top:8vh;
+border-color: #76ab68;
+justify-content: center;
+
+}
+
+#r2
+{
+background-color: #3c433e;
+background-position: bottom;
+background-repeat: no-repeat;
+font-family: 'Montserrat', sans-serif;
+color: white;
+height: 20vh;
+padding-top:8vh;
+justify-content: center;
+
+}
+
+#r3
+{
+background-color:  #3c8e53;
+font-family: 'Montserrat', sans-serif;
+color: rgb(255, 255, 255);
+height: 20vh;
+padding-top:8vh;
+justify-content: center;
+
+}
+
+#r4
+{
+background-color:#3c433e;
+background-position: center;
+background-repeat: no-repeat;
+font-family: 'Montserrat', sans-serif;
+color: white;
+height: 20vh;
+padding-top:8vh;
+justify-content: center;
+
+}
+
+
+#r5
+{
+background-color:#3c8e53;
+color: white;
+font-family: 'Montserrat', sans-serif;
+height: 20vh;
+padding-top: 8vh;
+text-align: center;
+
+
+}
+
+#r6
+{
+background-color: #3c433e;
+color: white;
+font-family: 'Montserrat', sans-serif;
+height: 20vh;
+padding-top:8vh;
+justify-content: center;
+
+}
+
+
+#r7
+{
+background-color:  #3c8e53;
+font-family: 'Montserrat', sans-serif;
+color: white;
+height: 20vh;
+padding-top:8vh;
+justify-content: center;
+
+}
+
+footer
+{
+    background-image: url("img/footer.jpg");
+    background-position: right;
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+
+#f1
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+#f2
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+#f3
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+#f4
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+#f5
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+#f6
+{
+    height: 25vh;
+    width: 30vw;
+}
+
+
+
+.transtext
+{
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    text-align: left;
+    width: fill;
+    justify-content: center;
+
+}
+
+/*about us*/
+#aboutcontent
+{
+    height: 120vh;
+    width: fill;
+    background-color: #5c5c5c;
+    background-attachment: fixed;
+}
+
+#ham
+{
+    height: 4vh;
+    width: 4vh;
+}
+
+.icon-holder
+{
+    height:10vh;
+    width: fill;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.card-text,.card-subtitle
+{
+    color:rgb(145, 139, 139);
+}
+
+
+
+
+/*DECORATION CLASSES*/
+.bordered-rounded
+{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.bordered-solid
+{
+    border-style: solid;
+    border-color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blurred-bordered
+{
+    backdrop-filter: blur(3px);
+    border-style: solid;
+    border-color: black;
+}
+
+/*color oriented css*/
+.greentext
+{
+    color:#3c8e53;
+}
+
+/*about css*/
+.aboutbody
+{
+    height: fit-content;
+    width: fill;
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    
+}
+
+.about-holder
+{
+    height: 40vh;
+    width: 90vw;
+    position: relative;
+    backdrop-filter: blur(3px);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:  auto;
+    margin-right:  auto;
+    
+    
+}
+
+
+
+/*contact css*/
+.contact-body
+{
+    background-image: url("img/back.jpg");
+    background-position: left;
+    background-attachment: fixed;
+    /*image-credit: Abhishek Paul*/
+    height: 90vh;
+    width: fill;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+
+
+
+
+
+
+
+/* icon borders */
+
+i
+{
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
+    backdrop-filter: blur(3px);
+}
+
