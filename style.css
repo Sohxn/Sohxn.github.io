@@ -1,4 +1,161 @@
-html , body
+html
 {
-    background-image: url("images/1378156.jpg");
+  height: 100%;
+  overflow-x: hidden;
 }
+
+body,head
+{
+  background: linear-gradient(45deg, #4b1581 0%, #29132e 100%);
+  background-position: fixed;
+}
+
+.navbar-custom
+{
+  background-color:transparent;
+  border: none'
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler span
+{
+    margin:0;
+    padding:0;
+}
+
+.toggler-icon
+{
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    background-color: #e763ee;
+    border-radius: 0px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+   
+ 
+   
+}
+
+.navbar-toggler .mid-bar
+{
+    margin-top: 0px;
+}
+
+/*when hamburger is clicked*/
+.navbar-toggler .top-bar
+{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .mid-bar
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bot-bar
+{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+
+}
+
+.navbar-toggler.collapsed .top-bar
+{
+    margin-top: -5.5px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .mid-bar
+{
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.navbar-toggler.collapsed .bot-bar
+{
+    margin-top: 5px;
+    transform: rotate(0deg);
+}
+
+
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+.dot 
+{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    background-color: #ff008c;
+    border-radius: 20px;
+}
+.dot:nth-child(2) 
+{
+    animation-delay: 0.1s;
+    background-color: #ea00ff;
+}
+.dot:nth-child(3)
+{
+    animation-delay: 0.2s;
+    background-color: #a006f9;
+}
+.dot:nth-child(4) {
+    animation-delay: 0.3s;
+    background-color: #7700ff;
+}
+.dot:nth-child(5)
+{
+    animation-delay: 0.4s;
+    background-color: #0065a8;
+}
+
+.loader
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+  
+button:hover
+{
+  border-style: none;
+}
+
+button::after
+{
+  border-style: none;
+}
+
+
+  @keyframes wave {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  
+  
