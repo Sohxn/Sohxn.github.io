@@ -1,0 +1,636 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #000000;
+    /*removes the extra ugly space horizontally*/
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+.navbar-custom
+{
+    font-family: 'Arial Narrow', sans-serif;
+    top: 0;
+}
+
+.navbar-brand
+{
+    color: #ffffff;
+    font-size: 27px;
+    transition: .5s;
+}
+
+.navbar-brand:hover
+{
+    color: #91ce4f;
+}
+.active
+{
+    color: #ffffff;
+}
+.nav-link
+{
+    color: #ffffff;
+    padding-bottom: 0px;
+
+}
+.nav-link:hover
+{
+    color:#91ce4f;
+}
+
+.navbar-collapse
+{
+    justify-content: right;
+    font-size: larger;
+  
+    
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+
+
+.toggler-icon
+{
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+    
+  
+}
+
+
+.navbar-toggler .mid-bar
+{
+    margin-top: 0px;
+    
+   
+}
+
+/*when hamburger is clicked*/
+.navbar-toggler .top-bar
+{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .mid-bar
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bot-bar
+{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+
+}
+
+.navbar-toggler.collapsed .top-bar
+{
+    margin-top: -5.5px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .mid-bar
+{
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.navbar-toggler.collapsed .bot-bar
+{
+    margin-top: 5px;
+    transform: rotate(0deg);
+}
+
+
+
+.carousel-logo
+{
+    padding-top: 40vh;
+    width: fill;
+}
+
+.logocontainer
+{
+    height: 30vh;
+    justify-content: center;
+    background-image: radial-gradient(#ffffff 2px, transparent 2px);
+    background-size: 62px 62px;
+    background-color: #000000;
+}
+
+#bannerlogo
+{
+    max-height: 30vh;   
+    max-width: 98vw;
+    margin-top: 4vh;
+}
+
+#dotted-info
+{
+    height:365vh;
+    margin-top: 5vh;
+    background-image: radial-gradient(#ffffff 2px, transparent 2px);
+    background-size: 50px 50px;
+    background-color: #000000;
+    background-attachment: fixed;
+    
+    
+}
+
+
+
+.info1
+{
+    height: fit-content;
+    background-color: #91ce4f;
+    margin-top: 31vh;
+   
+}
+
+.info2
+{
+    height: fit-content;
+    background-color: #91ce4f;
+    margin-top: 25vh;
+}
+
+.info3
+{
+    height: fit-content;
+    background-color: #91ce4f;
+    margin-top: 20vh;   
+}
+.gap
+{
+    height: 4vh;
+}
+
+.title
+{
+
+    width: fill;
+}
+
+.greenline
+{
+    height: 38vh;
+    width: 2px;
+    background-color: #91ce4f;
+    margin-left: 50%;
+    margin-top: 3%;
+    
+}
+
+.blackline
+{
+    height: 15vh;
+    width: 2px;
+    background-color: #000000;
+    margin-left: 50%;
+    margin-top: 3%;
+    
+}
+
+.collage
+{
+    margin: 5%;
+}
+
+.range
+{
+    margin: 5%;  
+}
+
+.carousel
+{
+    filter: grayscale();
+    transition: .5s;
+}
+
+.carousel:hover
+{
+    filter: none;
+}
+
+.range-border
+{
+    justify-content: center;
+    border-style: solid;
+    border-color: #91ce4f;
+    border-width: 2px;
+    height: 15vh;
+    margin: 5%;
+    margin-top: 1%;
+    transition: .5s;
+}
+
+
+.range-border:hover
+{
+    border-color: #bababa;
+}
+
+.range-border-more
+{
+    justify-content: center;
+    border-style: solid;
+    border-color: #91ce4f;
+    border-width: 2px;
+    height: 15vh;
+    margin: 5%;
+    margin-top: 1%;
+    transition: height 1s;
+    
+}
+
+.range-border-more:hover
+{
+    border-color: #bababa;
+    height: 40vh;
+}
+
+.range-border-long
+{
+    justify-content: center;
+   
+    border-style: solid;
+    border-color: #91ce4f;
+    border-width: 2px;
+    height: 25vh;
+    margin: 5%;
+    margin-top: 1%;
+    transition: .5s;
+}
+
+.range-border-long:hover .rangetextlong
+{
+    color: #91ce4f;
+}
+
+.range-border:hover .rangetext
+{
+    color:#91ce4f;
+}
+
+.rangetext
+{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    text-align: center;
+    color: #c8c8c8;
+    align-self: center;
+}
+
+/*to be addded to the */
+.moreclass
+{
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    color:#91ce4f;
+    text-align: center;
+}
+
+.rangetextlong
+{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    text-align: center;
+    color: #c8c8c8;
+    align-self: center;
+}
+
+.range-border-long:hover
+{
+    border-color: #bababa;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+
+.dot 
+{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    background-color: #91ce4f;
+    border-radius: 20px;
+}
+.dot:nth-child(2) 
+{
+    animation-delay: 0.1s;
+    background-color: #91ce4f;
+}
+.dot:nth-child(3)
+{
+    animation-delay: 0.2s;
+    background-color: #91ce4f;
+}
+.dot:nth-child(4) {
+    animation-delay: 0.3s;
+    background-color: #91ce4f;
+}
+.dot:nth-child(5)
+{
+    animation-delay: 0.4s;
+    background-color: #91ce4f;
+}
+
+.loader
+{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.animation
+{
+    height: 300px;
+    width: 300px;
+    background-color: #000000;
+   
+}
+
+.logo
+{
+    justify-content: center;
+}
+
+footer
+{
+    height: 40vh;
+    width: fill;
+    background-color: #000000;
+    margin: 4%;
+
+}
+
+.dottedfooter
+{
+    height: 30vh;
+    background-color: #91ce4f;
+    background-attachment: fixed;
+}
+
+.social
+{
+    height: 10vh;
+    background-color: #000000;
+    
+}
+
+
+  @keyframes wave {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
+
+
+
+/*about us*/
+
+#atitle
+{
+    height: 70vh;
+    width: fill;                                       
+}
+
+/*for phones*/
+@media only screen and (max-width: 600px)
+{
+    .aboutnames
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 7vh;
+        margin-left: 4vw;
+    }
+
+    .aboutdesc
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4vh; color: #5d5d5d;
+        margin-left: 4vw;
+    }
+
+    .leftcard
+    {
+        perspective: 1000px;
+        margin-bottom: 40vh;
+        width: 100vw;
+    }
+
+    .leftcard-inner
+    {
+        background-color: #91ce4f;
+        min-height: 90vh;
+        width: 100vw;
+        height: fit-content;
+        position: relative;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .leftcard:hover .leftcard-inner
+    {
+        transform: rotateX(180deg);
+    }
+
+    .frontcard, .backcard
+    {
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    
+    .backcard
+    {
+        transform: rotateX(180deg);
+        align-items: center;
+        text-align: left;
+        background-color: #91ce4f;
+        height: 100vh;
+        
+    }
+
+    .bor-round-but
+    {
+        background-color: transparent;
+        width: 40vw;
+        margin-left: 11vw;
+        margin-top: 3vh;
+        border-style: solid;
+        border-radius: 7px;
+        height: 6vh;
+    }
+
+    #dotted-about
+    {
+        height: 550vh;
+        margin-top: 5vh;
+        background-image: radial-gradient(#ffffff 2px, transparent 2px);
+        background-size: 50px 50px;
+        background-color: #000000;
+        background-attachment: fixed;
+    }
+}
+
+/*for desktop pcs*/
+@media only screen and (min-width: 768px)
+{
+    .aboutnames
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 8vh;
+        margin-left: 10vw
+    }
+
+    .aboutdesc
+    {
+        font-family: 'Oswald', sans-serif; 
+        font-size: 6vh; color: #5d5d5d; 
+        margin-left: 10vw;
+    }
+
+    #dotted-about
+    {
+        height:fit-content;
+        margin-top: 5vh;
+        background-image: radial-gradient(#ffffff 2px, transparent 2px);
+        background-size: 50px 50px;
+        background-color: #000000;
+        background-attachment: fixed;
+    }
+
+    .leftcard
+    {
+        perspective: 1000px;
+        margin-bottom: 40vh;
+        width: 60vw;
+    }
+
+    .leftcard-inner
+    {
+        background-color: #91ce4f;
+        min-height: 60vh;
+        width: 60vw;
+        height: fit-content;
+        position: relative;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .leftcard:hover .leftcard-inner
+    {
+        transform: rotateX(180deg);
+    }
+
+    .frontcard, .backcard
+    {
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    
+    .backcard
+    {
+        transform: rotateX(180deg);
+        align-items: center;
+        text-align: left;
+        background-color: #91ce4f;
+        height: 75vh;
+        
+    }
+
+    
+
+    .bor-round-but
+    {
+        background-color: transparent;
+        width: 10vw;
+        margin-left: 11vw;
+        margin-top: 3vh;
+        border-style: solid;
+        border-radius: 9px;
+        height: 6vh;
+        transition: all .2s ease-in;
+    }
+
+  
+    
+
+}
+    
+  
+.about-img
+{
+    margin-left: 2vw;
+    margin-top: 6.5vh;
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*Contact*/
+#contact-title
+{
+    margin-top: 7vh;
+    text-align: center;
+    
+}
+
+.contact-info
+{
+    margin-top: 15vh;
+    min-height: 125vh;
+    height: fit-content;
+    width: 35vw;
+    background-color: #91ce4f;
+}
+
+.dotted-map
+{
+    margin: 17vh;
+    height: fit-content;
+    background-color: #ffffff;
+    width: fit-content;
+   
+}
+
